@@ -7,6 +7,12 @@
     </div>
   {% endif %}
 
+  {% if post.author_note %}
+  <div class="publication-item__author-note">
+    {{ post.author_note }}
+  </div>
+{% endif %}
+
   {% if post.venue or post.year %}
     <div class="publication-item__venue">
       {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.venue and post.year %}, {% endif %}{% if post.year %}{{ post.year }}{% endif %}

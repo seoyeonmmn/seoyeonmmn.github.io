@@ -145,3 +145,9 @@ html[data-theme="dark"] {
     margin-bottom: 2.25rem;
   }
 }
+
+.publication-item__author-note {
+  margin-top: 0.1rem;
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}

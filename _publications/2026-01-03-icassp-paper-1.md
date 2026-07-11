@@ -1,21 +1,24 @@
 ---
-title: "Explicit Time-Frequency Dynamics for Skeleton-Based Gait Recognition"
+title: "SIREN: Spatially-Informed Reconstruction of Binaural Audio with Vision"
 collection: publications
-authors: "<strong>Seoyeon Ko</strong>, Yeojin Song, Egene Chung, Luca Quagliato, Taeyong Lee, Junhyug Noh"
+authors: "Mingyeong Song<sup>*</sup>, <strong>Seoyeon Ko</strong><sup>†</sup>, Junhyug Noh"
+author_note: "<sup>*</sup> Equal contribution."
 venue: "International Conference on Acoustics, Speech, and Signal Processing (<strong>ICASSP</strong>)"
 year: 2026
-order: 4
+order: 2
 links:
   - name: article
-    url: "https://arxiv.org/abs/2604.03002"
+    url: "https://arxiv.org/abs/2603.29820"
     
 summary: >-
-  We propose a plug-and-play Wavelet Feature Stream that enriches
-  skeleton-based gait recognition by capturing time-frequency dynamics
-  of joint velocities via Continuous Wavelet Transform (CWT). A lightweight
-  multi-scale CNN extracts discriminative features from the resulting
-  scalograms and fuses them with any existing backbone, requiring no
-  architectural changes or extra supervision. The method consistently
-  improves strong baselines on CASIA-B, with especially notable gains
-  under covariate shifts such as bag-carrying and coat-wearing conditions.
+  We propose SIREN, a visually guided mono-to-binaural audio reconstruction
+  framework that directly predicts left and right channels from monaural audio
+  and visual context. A ViT-based encoder uses dual-head self-attention to learn
+  shared scene representations and spatially grounded left/right cues, while a
+  soft annealed spatial prior supports stable localization during training.
+  A two-stage confidence-weighted waveform fusion further reduces crosstalk
+  across multiple crops and overlapping windows using mono reconstruction
+  confidence and interaural phase consistency. SIREN consistently improves
+  time-frequency and phase-sensitive reconstruction quality on FAIR-Play and
+  MUSIC-Stereo without requiring task-specific spatial annotations.
 ---
