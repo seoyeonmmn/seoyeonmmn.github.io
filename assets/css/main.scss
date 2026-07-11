@@ -296,9 +296,9 @@ body {
 .experience-item {
   margin: 1rem 0 2rem;
   padding: 1.1rem 1.25rem;
-  border-left: 3px solid var(--global-base-color);
+  // border-left: 3px solid var(--global-base-color);
   background: rgba(127, 127, 127, 0.04);
-  border-radius: 10px;
+  border-radius: 0 8px 8px 0;
 }
 
 .experience-item__header {
