@@ -106,3 +106,42 @@ html[data-theme="dark"] {
 .author__avatar img {
   border: 3px solid var(--global-border-color);
 }
+/* ==========================================================================
+   Publications
+   ========================================================================== */
+
+.publication-list {
+  margin-top: 1.5rem;
+}
+
+.publication-item {
+  margin-bottom: 2.75rem;
+}
+
+.publication-item__title {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.publication-item__authors,
+.publication-item__venue,
+.publication-item__links {
+  line-height: 1.45;
+}
+
+.publication-item__links {
+  margin-top: 0.1rem;
+}
+
+.publication-item__summary {
+  margin: 0.65rem 0 0;
+  line-height: 1.55;
+}
+
+@media (max-width: 600px) {
+  .publication-item {
+    margin-bottom: 2.25rem;
+  }
+}
