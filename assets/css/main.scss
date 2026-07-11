@@ -37,3 +37,72 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* ==========================================================================
+   Seo Yeon Ko custom colors
+   ========================================================================== */
+
+:root {
+  --global-base-color: #9b2f4a;
+  --global-bg-color: #fcfcfb;
+  --global-footer-bg-color: #f8eef1;
+
+  --global-border-color: #eadce0;
+  --global-dark-border-color: #d4c3c8;
+
+  --global-code-background-color: #f6f3f4;
+  --global-code-text-color: #3b3d43;
+
+  --global-fig-caption-color: #6f7379;
+
+  --global-link-color: #356a8a;
+  --global-link-color-hover: #9b2f4a;
+  --global-link-color-visited: #6d5973;
+
+  --global-masthead-link-color: #34373d;
+  --global-masthead-link-color-hover: #9b2f4a;
+
+  --global-text-color: #2e3035;
+  --global-text-color-light: #6f7379;
+
+  --global-thead-color: #f8eef1;
+}
+
+/* Dark-mode colors */
+html[data-theme="dark"] {
+  --global-base-color: #e596aa;
+  --global-bg-color: #202126;
+  --global-footer-bg-color: #29242a;
+
+  --global-border-color: #55434a;
+  --global-dark-border-color: #735461;
+
+  --global-code-background-color: #292a30;
+  --global-code-text-color: #ece8ea;
+
+  --global-fig-caption-color: #b9b2b6;
+
+  --global-link-color: #8dbbd2;
+  --global-link-color-hover: #e596aa;
+  --global-link-color-visited: #baa4c2;
+
+  --global-masthead-link-color: #f0edef;
+  --global-masthead-link-color-hover: #e596aa;
+
+  --global-text-color: #ece8ea;
+  --global-text-color-light: #b9b2b6;
+
+  --global-thead-color: #332d31;
+}
+
+/* Subtle section-heading accent */
+.page__content h2 {
+  border-left: 4px solid var(--global-base-color);
+  padding-left: 0.65rem;
+  margin-top: 2.2rem;
+}
+
+/* Slightly softer profile image */
+.author__avatar img {
+  border: 3px solid var(--global-border-color);
+}
