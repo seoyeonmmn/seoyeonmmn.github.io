@@ -14,7 +14,7 @@ author_profile: true
 </div>
 {% endif %}
 
-{% assign publications = site.publications | sort: "order" | reverse %}
+{% assign publications = site.publications | sort: "order" %}
 
 <div class="publication-list">
 {% for post in publications %}
