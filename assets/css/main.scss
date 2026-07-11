@@ -296,3 +296,53 @@ body {
   }
 }
 
+
+/* ==========================================================================
+   Experience
+   ========================================================================== */
+
+.experience-item {
+  margin: 1rem 0 2rem;
+  padding: 1.1rem 1.25rem;
+  border-left: 3px solid var(--global-base-color);
+  background: rgba(127, 127, 127, 0.04);
+  border-radius: 0 8px 8px 0;
+}
+
+.experience-item__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.98rem;
+}
+
+.experience-item__date {
+  flex-shrink: 0;
+  font-size: 0.84rem;
+  color: var(--global-text-color-light);
+}
+
+.experience-item__company {
+  margin-top: 0.15rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--global-text-color-light);
+}
+
+.experience-item__description {
+  margin: 0.7rem 0 0;
+  font-size: 0.93rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .experience-item__header {
+    display: block;
+  }
+
+  .experience-item__date {
+    display: block;
+    margin-top: 0.15rem;
+  }
+}
