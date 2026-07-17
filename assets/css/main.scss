@@ -340,13 +340,33 @@ body {
 }
 
 
-.publication-item__title a {
-  color: inherit;
+/* Publication title links */
+.publication-item__title a,
+.publication-item__title a:visited {
+  color: var(--global-link-color);
   text-decoration: none;
+  transition:
+    color 0.15s ease,
+    text-decoration-color 0.15s ease;
 }
 
-.publication-item__title a:hover {
-  color: var(--global-link-color);
+.publication-item__title a::after {
+  content: "\00a0↗";
+  display: inline;
+  font-size: 0.78em;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.publication-item__title a:hover,
+.publication-item__title a:focus-visible {
+  color: var(--global-link-color-hover);
   text-decoration: underline;
-  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.publication-item__title a:hover::after,
+.publication-item__title a:focus-visible::after {
+  opacity: 1;
 }
