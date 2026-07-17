@@ -1,5 +1,18 @@
 <div class="publication-item">
-  <h3 class="publication-item__title">{{ post.title }}</h3>
+  <!-- <h3 class="publication-item__title">{{ post.title }}</h3> -->
+  <h3 class="publication-item__title">
+  {% if post.article_url %}
+    <a
+      href="{{ post.article_url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Open {{ post.title }}">
+      {{ post.title }}
+    </a>
+  {% else %}
+    {{ post.title }}
+  {% endif %}
+</h3>
 
   {% if post.authors %}
     <div class="publication-item__authors">

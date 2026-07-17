@@ -1,13 +1,11 @@
 ---
 title: "Explicit Time-Frequency Dynamics for Skeleton-Based Gait Recognition"
 collection: publications
+article_url: "https://arxiv.org/abs/2604.03002"
 authors: "<strong>Seoyeon Ko</strong>, Yeojin Song, Egene Chung, Luca Quagliato, Taeyong Lee, Junhyug Noh"
 venue: "International Conference on Acoustics, Speech, and Signal Processing (<strong>ICASSP</strong>)"
 year: 2026
 order: 1
-links:
-  - name: article
-    url: "https://arxiv.org/abs/2604.03002"
     
 summary: >-
   We propose a plug-and-play Wavelet Feature Stream that enriches
