@@ -2,7 +2,7 @@
 title: "SIREN: Spatially-Informed Reconstruction of Binaural Audio with Vision"
 collection: publications
 article_url: "https://arxiv.org/abs/2603.29820"
-authors: "Mingyeong Song<sup>*</sup>, <strong>Seoyeon Ko</strong><sup>†</sup>, Junhyug Noh"
+authors: "Mingyeong Song<sup>*</sup>, <strong>Seoyeon Ko</strong><sup>*</sup>, Junhyug Noh"
 author_note: "<sup>*</sup> Equal contribution."
 venue: "International Conference on Acoustics, Speech, and Signal Processing (<strong>ICASSP</strong>)"
 year: 2026
