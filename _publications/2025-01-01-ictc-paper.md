@@ -6,6 +6,7 @@ collection: publications
 authors: " <strong>Seoyeon Ko</strong><sup>*</sup>, Hyunseo Kim<sup>*</sup>,  Seoyeong Hwang<sup>*</sup>,  Jihyun Yu, Jeonghyun Kim, Hyunsoo Cho, Junhyug Noh"
 venue: "International Conference on ICT Convergence.
  (<strong>ICTC</strong>)"
+thumbnail: "/images/publications/LYRICS.png"
 year: 2025
 order: 3
 

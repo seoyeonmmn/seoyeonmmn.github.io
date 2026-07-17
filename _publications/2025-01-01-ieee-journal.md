@@ -4,6 +4,7 @@ collection: publications
 article_url: "https://ieeexplore.ieee.org/abstract/document/11348061"
 authors: "Yeojin Song<sup>*</sup>, Luca Quagliato<sup>*</sup>, Egene Chung, <strong>Seoyeon Ko</strong>, Seoyeong Hwang, Junhyug Noh, Junhyug Noh"
 venue: "International Conference on Acoustics, Speech, and Signal Processing (<strong>ICASSP</strong>)"
+thumbnail: "/images/publications/ieee_access.png"
 year: 2026
 order: 4
     

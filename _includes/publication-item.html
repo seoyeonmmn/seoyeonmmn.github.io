@@ -1,48 +1,65 @@
-<div class="publication-item">
-  <!-- <h3 class="publication-item__title">{{ post.title }}</h3> -->
-  <h3 class="publication-item__title">
-  {% if post.article_url %}
-    <a
-      href="{{ post.article_url }}"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Open {{ post.title }}">
-      {{ post.title }}
-    </a>
-  {% else %}
-    {{ post.title }}
-  {% endif %}
-</h3>
+<div class="publication-item{% if post.thumbnail %} publication-item--with-image{% endif %}">
 
-  {% if post.authors %}
-    <div class="publication-item__authors">
-      {{ post.authors }}
+  {% if post.thumbnail %}
+    <div class="publication-item__figure">
+      {% if post.article_url %}
+        <a
+          href="{{ post.article_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open {{ post.title }}">
+          <img
+            src="{{ post.thumbnail | relative_url }}"
+            alt="{{ post.thumbnail_alt | default: post.title }}"
+            loading="lazy">
+        </a>
+      {% else %}
+        <img
+          src="{{ post.thumbnail | relative_url }}"
+          alt="{{ post.thumbnail_alt | default: post.title }}"
+          loading="lazy">
+      {% endif %}
     </div>
   {% endif %}
 
-  {% if post.author_note %}
-  <div class="publication-item__author-note">
-    {{ post.author_note }}
+  <div class="publication-item__body">
+    <h3 class="publication-item__title">
+      {% if post.article_url %}
+        <a
+          href="{{ post.article_url }}"
+          target="_blank"
+          rel="noopener noreferrer">
+          {{ post.title }}
+        </a>
+      {% else %}
+        {{ post.title }}
+      {% endif %}
+    </h3>
+
+    {% if post.authors %}
+      <div class="publication-item__authors">
+        {{ post.authors }}
+      </div>
+    {% endif %}
+
+    {% if post.author_note %}
+      <div class="publication-item__author-note">
+        {{ post.author_note }}
+      </div>
+    {% endif %}
+
+    {% if post.venue or post.year %}
+      <div class="publication-item__venue">
+        {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+        {% if post.venue and post.year %}, {% endif %}
+        {% if post.year %}{{ post.year }}{% endif %}
+      </div>
+    {% endif %}
+
+    {% if post.summary %}
+      <p class="publication-item__summary">
+        {{ post.summary }}
+      </p>
+    {% endif %}
   </div>
-{% endif %}
-
-  {% if post.venue or post.year %}
-    <div class="publication-item__venue">
-      {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.venue and post.year %}, {% endif %}{% if post.year %}{{ post.year }}{% endif %}
-    </div>
-  {% endif %}
-
-  {% if post.links %}
-    <div class="publication-item__links">
-      {% for link in post.links %}
-        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">[{{ link.name }}]</a>{% unless forloop.last %} / {% endunless %}
-      {% endfor %}
-    </div>
-  {% endif %}
-
-  {% if post.summary %}
-    <p class="publication-item__summary">
-      {{ post.summary }}
-    </p>
-  {% endif %}
 </div>

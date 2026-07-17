@@ -5,6 +5,7 @@ article_url: "https://arxiv.org/abs/2604.03002"
 authors: "<strong>Seoyeon Ko</strong>, Yeojin Song, Egene Chung, Luca Quagliato, Taeyong Lee, Junhyug Noh"
 venue: "International Conference on Acoustics, Speech, and Signal Processing (<strong>ICASSP</strong>)"
 year: 2026
+thumbnail: "/images/publications/wavelet.png"
 order: 1
     
 summary: >-

@@ -6,6 +6,7 @@ authors: "Mingyeong Song<sup>*</sup>, <strong>Seoyeon Ko</strong><sup>†</sup>,
 author_note: "<sup>*</sup> Equal contribution."
 venue: "International Conference on Acoustics, Speech, and Signal Processing (<strong>ICASSP</strong>)"
 year: 2026
+thumbnail: "/images/publications/SIREN.png"
 order: 2
     
 summary: >-
