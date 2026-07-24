@@ -2,7 +2,7 @@
 title: "Toward Robust Gait Identification: A Frequency Domain Approach in Varied Surveillance Environments"
 collection: publications
 article_url: "https://ieeexplore.ieee.org/abstract/document/11348061"
-authors: "Yeojin Song<sup>*</sup>, Luca Quagliato<sup>*</sup>, Egene Chung, <strong>Seoyeon Ko</strong>, Seoyeong Hwang, Junhyug Noh, Junhyug Noh"
+authors: "Yeojin Song<sup>*</sup>, Luca Quagliato<sup>*</sup>, Sewon Jang, Egene Chung, <strong>Seoyeon Ko</strong>, Seoyeong Hwang, Junhyug Noh, Taeyong Lee"
 venue: "IEEE Access"
 thumbnail: "/images/publications/ieee_access.png"
 year: 2026
