@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Most of my work is driven by the same instinct: to treat data—whether an image, a gait sequence, or a spatial audio scene—as a signal, and to look for the structure beneath it. I earned my M.S. in Artificial Intelligence at Ewha Womans University, where I conducted research in the ([PAI Lab](https://pai.ewha.ac.kr/) under the supervision of [Prof. Junhyug Noh](https://junhyug.github.io/)). I now work in the same lab as a researcher, spanning computer vision, multimodal AI, and generative modeling.
+Most of my work is driven by the same instinct: to treat data—whether an image, a gait sequence, or a spatial audio scene—as a signal, and to look for the structure beneath it. I earned my M.S. in Artificial Intelligence at Ewha Womans University, where I conducted research in the [PAI Lab](https://pai.ewha.ac.kr/) under the supervision of [Prof. Junhyug Noh](https://junhyug.github.io/)). I now work in the same lab as a researcher, spanning computer vision, multimodal AI, and generative modeling.
 
 ## Experience
 
